@@ -1,0 +1,27 @@
+<div id="wrapper">
+    <!-- Navigation -->
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#task1" role="tab" data-toggle="tab">Task 1</a></li>
+        <li><a href="#task2" role="tab" data-toggle="tab">Task 2</a></li>
+        <li><a href="#task3" role="tab" data-toggle="tab">Task 3</a></li>
+        <li><a href="#task4" role="tab" data-toggle="tab">Task 4</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="task1">
+            <h2>Task 1</h2>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="task2">
+            <h2>Task 2</h2>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="task3">
+            <h2>Button Task</h2>
+            <button class="btn-round">A</button>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="task4">
+            <h2>Gradient Task</h2>
+            <div class="gradient"></div>
+        </div>
+    </div>
+</div>
+<!-- /#wrapper -->
