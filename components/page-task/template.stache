@@ -9,10 +9,12 @@
 
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="task1">
-            <h2>Task 1</h2>
+            <h2>Get Excel Column Letter</h2>
+            Enter the Number : <input type="text" name="name" can-value="columnNumber" />
+            Excel Column Letter : {{getExcelColumnCode}}
         </div>
         <div role="tabpanel" class="tab-pane" id="task2">
-            <h2>Task 2</h2>
+            <h2>Word Representation</h2>
         </div>
         <div role="tabpanel" class="tab-pane" id="task3">
             <h2>Button Task</h2>
