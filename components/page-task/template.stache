@@ -10,8 +10,8 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="task1">
             <h2>Get Excel Column Letter</h2>
-            Enter the Number : <input type="text" name="name" can-value="columnNumber" />
-            Excel Column Letter : {{getExcelColumnCode}}
+            Enter the Number : <input type="text" name="name" can-value="columnNumber" /> <input type="button" name="Get" value='Get' can-click="getExcelColumnCode">
+            Excel Column Letter : {{setExcelColumnCode}}
         </div>
         <div role="tabpanel" class="tab-pane" id="task2">
             <h2>Word Representation</h2>
