@@ -1,3 +1,10 @@
-<div class="">
-  CSS Gradient module loaded
+<div class="page-header">
+  <h1>Task 4
+    <p>
+      <small>
+        The image shows a complex gradient background. It was done in Photoshop, please recreate it with HTML and webkit's CSS3. <br>You should not use any images, just CSS3. It should work in Chrome and Safari. You should use as minimum markup as possible. <br>Try to make it as visually close to the reference image as you can. As markup create a single div without content: div id="gradient"
+      </small>
+    </p>
+  </h1>
 </div>
+<div class="gradient"></div>

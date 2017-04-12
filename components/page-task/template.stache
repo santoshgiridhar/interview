@@ -1,29 +1,103 @@
-<div id="wrapper">
-    <!-- Navigation -->
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#task1" role="tab" data-toggle="tab">Task 1</a></li>
-        <li><a href="#task2" role="tab" data-toggle="tab">Task 2</a></li>
-        <li><a href="#task3" role="tab" data-toggle="tab">Task 3</a></li>
-        <li><a href="#task4" role="tab" data-toggle="tab">Task 4</a></li>
-    </ul>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
 
+            <a class="navbar-brand" href="#">Interview Exercise</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li><a href="#task1" ui-sref="task1" role="tab" data-toggle="tab">Task 1</a></li>
+        <li><a href="#task2" ui-sref="task2"  role="tab" data-toggle="tab">Task 2</a></li>
+        <li><a href="#task3" ui-sref="task3" role="tab" data-toggle="tab">Task 3</a></li>
+        <li><a href="#task4" ui-sref="task4" role="tab" data-toggle="tab">Task 4</a></li>
+    </ul>
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="task1">
-            <h2>Get Excel Column Letter</h2>
-            Enter the Number : <input type="text" name="name" can-value="columnNumber" /> <input type="button" name="Get" value='Get' can-click="getExcelColumnCode">
-            Excel Column Letter : {{setExcelColumnCode}}
+            <div class="page-header">
+              <h1>Task 1
+                <p>
+                  <small>
+                    Write a function that takes a number and returns the excel column code. <br>
+                    Create visual input and output for that function on a webpage.
+                  </small>
+                </p>
+              </h1>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputNumber" class="col-sm-2 control-label">Enter the Number:</label>
+                    <div class="col-sm-10">
+                         <input type="text" name="name" can-value="columnNumber" /> <input type="button" name="Get" value='Get' can-click="getExcelColumnCode">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Excel Column Letter:</label>
+                    <div class="col-sm-10">
+                        <p class="form-control-static"><b>{{setExcelColumnCode}}</b></p>
+                    </div>
+                </div>
+            </form>
+
         </div>
         <div role="tabpanel" class="tab-pane" id="task2">
-            <h2>Word Representation</h2>
+          <div class="page-header">
+            <h1>Task 2
+              <p>
+                <small>
+                  Write a function that given a string replaces all numbers into their word representation (1 - one, 2 - two). <br>
+                  Use helpr functions if needed. Create visual input and output for that function on a webpage.
+                </small>
+              </p>
+            </h1>
+          </div>
+          <form class="form-horizontal">
+              <div class="form-group">
+                  <label for="inputNumber" class="col-sm-2 control-label">Enter the Number:</label>
+                  <div class="col-sm-10">
+                      <input type="text" name="name" can-value="convertedNumber" /> <input type="button" name="Convert" value='Convert' can-click="doLetterConverstion">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-sm-2 control-label">Word Representation:</label>
+                  <div class="col-sm-10">
+                      <p class="form-control-static"><b>{{setConvertedNumber}}</b></p>
+                  </div>
+              </div>
+          </form>
         </div>
         <div role="tabpanel" class="tab-pane" id="task3">
-            <h2>Button Task</h2>
-            <button class="btn-round">A</button>
+          <div class="page-header">
+            <h1>Task 3
+              <p>
+                <small>
+                  The image shows a button. It was done in Photoshop, please recreate it with HTML and webkit's CSS3. <br>
+                  You should not use any images, just CSS3. It should work in Chrome and Safari.<br> You should use as minimum markup as possible. <br>Try to make it as visually close to the reference image as you can.
+                </small>
+              </p>
+            </h1>
+          </div>
+          <button class="btn-round">A</button>
         </div>
         <div role="tabpanel" class="tab-pane" id="task4">
-            <h2>Gradient Task</h2>
-            <div class="gradient"></div>
+          <div class="page-header">
+            <h1>Task 4
+              <p>
+                <small>
+                  The image shows a complex gradient background. It was done in Photoshop, please recreate it with HTML and webkit's CSS3. <br>You should not use any images, just CSS3. It should work in Chrome and Safari. You should use as minimum markup as possible. <br>Try to make it as visually close to the reference image as you can. As markup create a single div without content: div id="gradient"
+                </small>
+              </p>
+            </h1>
+          </div>
+          <div class="gradient"></div>
+
         </div>
     </div>
 </div>
+
+
 <!-- /#wrapper -->

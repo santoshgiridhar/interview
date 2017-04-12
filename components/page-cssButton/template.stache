@@ -1,3 +1,11 @@
-<div class="">
-  CSS Button module loaded
+<div class="page-header">
+  <h1>Task 3
+    <p>
+      <small>
+        The image shows a button. It was done in Photoshop, please recreate it with HTML and webkit's CSS3. <br>
+        You should not use any images, just CSS3. It should work in Chrome and Safari.<br> You should use as minimum markup as possible. <br>Try to make it as visually close to the reference image as you can.
+      </small>
+    </p>
+  </h1>
 </div>
+<button class="btn-round">A</button>
