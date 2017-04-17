@@ -1,0 +1,31 @@
+<!-- <can-import from="bit-tabs"/> -->
+
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">Interview Exercise</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div>
+    </div>
+</nav>
+<bit-tabs>
+    <bit-panel title="task1">
+      Navigate to excel Column
+    </bit-panel>
+    <bit-panel title="task2">
+      Navigate to word representation
+    </bit-panel>
+    <bit-panel title="task3">
+      Navigate to ccs button
+    </bit-panel>
+    <bit-panel title="task4">
+      Navigate to css gradient
+    </bit-panel>
+</bit-tabs>
+
+</div>
+
+
+<!-- /#wrapper -->

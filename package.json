@@ -12,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.1",
+    "bit-tabs": "^1.0.0",
     "bootstrap": "^3.3.6",
     "can": "^2.3.30",
     "funcunit": "^3.0.0",

@@ -10,7 +10,8 @@ import bootstrap from 'bootstrap';
 import css_bootstrap from 'bootstrap.css!';
 
 // Components
-import 'components/page-task/';
+// import 'components/page-task/';
+import 'components/page-dashboard/';
 import index_template from 'index.stache!';
 //import 'index.less!'; //Not used currently
 
@@ -35,7 +36,7 @@ can.route.map(appViewModel);
 // Each element that will be set on the app-state must be preceded by a colon
 // Also, set a default value for page (the login page)
 can.route(':page');
-can.route('', {page: 'task'});
+can.route('', {page: 'dashboard'});
 
 // Initialize routing
 can.route.ready();
