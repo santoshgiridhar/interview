@@ -14,7 +14,7 @@ can.Component.extend({
 	template: template,
 	events: {
 		'inserted': function() {
-			console.log('loaded excel column modules');
+			console.log('loaded word representation modules');
 
 
 		}

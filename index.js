@@ -9,6 +9,9 @@ import "can/route/pushstate/pushstate";
 import bootstrap from 'bootstrap';
 import css_bootstrap from 'bootstrap.css!';
 
+import "bit-tabs";
+import css_bittabs from 'bittabs.css!';
+
 // Components
 // import 'components/page-task/';
 import 'components/page-dashboard/';

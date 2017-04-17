@@ -12,19 +12,36 @@
 </nav>
 <bit-tabs>
     <bit-panel title="task1">
-      Navigate to excel Column
+      <a href="/excelColumn">task1</a>
     </bit-panel>
     <bit-panel title="task2">
-      Navigate to word representation
+    <a href="/wordRepresentation">task2</a>
     </bit-panel>
     <bit-panel title="task3">
-      Navigate to ccs button
+    <a href="/cssButton">task3</a>
     </bit-panel>
     <bit-panel title="task4">
-      Navigate to css gradient
+      <a href="/cssGradient">task4</a>
     </bit-panel>
 </bit-tabs>
 
+
+
+
+{{#switch page}}
+    {{#case "excelColumn"}}
+        <page-excelColumn></page-excelColumn>
+    {{/case}}
+    {{#case "wordRepresentation"}}
+        <page-wordRepresentation></page-wordRepresentation>
+    {{/case}}
+    {{#case "cssButton"}}
+        <page-cssButton></page-cssButton>
+    {{/case}}
+     {{#case "cssGradient"}}
+        <page-cssGradient></page-cssGradient>
+    {{/case}}
+{{/switch}}
 </div>
 
 
