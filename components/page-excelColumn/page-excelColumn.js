@@ -15,8 +15,10 @@ can.Component.extend({
 	events: {
 		'inserted': function() {
 			console.log('loaded excel column modules');
-
-
+		},
+		'.columnNumber blur':function(el){
+			console.log();
+			this.viewModel.getExcelColumnCode(el[0].value);
 		}
 	}
 });

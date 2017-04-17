@@ -1,3 +1,28 @@
-<div class="">
-  Excel Column module loaded
+<div class="page-header">
+  <h1>Task 1
+    <p>
+      <small>
+        Write a function that takes a number and returns the excel column code. <br>
+        Create visual input and output for that function on a webpage.
+      </small>
+    </p>
+  </h1>
 </div>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="inputNumber" class="col-sm-2 control-label">Enter the Number:</label>
+        <!-- <div class="col-sm-10">
+             <input type="text" name="name" can-value="columnNumber" /> <input type="button" name="Get" value='Get' can-click="getExcelColumnCode">
+        </div> -->
+        <div class="col-sm-10">
+             <input type="text" class="columnNumber" name="name"  {($value)}="columnNumber" />
+             <!-- <input type="button" name="Get" value='Get' can-click="getExcelColumnCode"> -->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Excel Column Letter:</label>
+        <div class="col-sm-10">
+            <p class="form-control-static"><b>{{setExcelColumnCode}}</b></p>
+        </div>
+    </div>
+</form>

@@ -1,46 +1,46 @@
 <!-- <can-import from="bit-tabs"/> -->
 
 <nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
+  <div class="container">
+    <div class="navbar-header">
 
-            <a class="navbar-brand" href="#">Interview Exercise</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-        </div>
+      <a class="navbar-brand" href="#">Interview Exercise</a>
     </div>
+    <div id="navbar" class="navbar-collapse collapse">
+    </div>
+  </div>
 </nav>
 <bit-tabs>
-    <bit-panel title="task1">
-      <a href="/excelColumn">task1</a>
-    </bit-panel>
-    <bit-panel title="task2">
+  <bit-panel title="task1">
+    <a href="/excelColumn">task1</a>
+  </bit-panel>
+  <bit-panel title="task2">
     <a href="/wordRepresentation">task2</a>
-    </bit-panel>
-    <bit-panel title="task3">
+  </bit-panel>
+  <bit-panel title="task3">
     <a href="/cssButton">task3</a>
-    </bit-panel>
-    <bit-panel title="task4">
-      <a href="/cssGradient">task4</a>
-    </bit-panel>
+  </bit-panel>
+  <bit-panel title="task4">
+    <a href="/cssGradient">task4</a>
+  </bit-panel>
 </bit-tabs>
 
 
 
 
 {{#switch page}}
-    {{#case "excelColumn"}}
-        <page-excelColumn></page-excelColumn>
-    {{/case}}
-    {{#case "wordRepresentation"}}
-        <page-wordRepresentation></page-wordRepresentation>
-    {{/case}}
-    {{#case "cssButton"}}
-        <page-cssButton></page-cssButton>
-    {{/case}}
-     {{#case "cssGradient"}}
-        <page-cssGradient></page-cssGradient>
-    {{/case}}
+  {{#case "excelColumn"}}
+    <page-excelColumn></page-excelColumn>
+  {{/case}}
+  {{#case "wordRepresentation"}}
+    <page-wordRepresentation></page-wordRepresentation>
+  {{/case}}
+  {{#case "cssButton"}}
+    <page-cssButton></page-cssButton>
+  {{/case}}
+  {{#case "cssGradient"}}
+    <page-cssGradient></page-cssGradient>
+  {{/case}}
 {{/switch}}
 </div>
 

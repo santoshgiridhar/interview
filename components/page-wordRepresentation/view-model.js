@@ -15,7 +15,7 @@ export default can.Map.extend({
         var self = this,
             convertNumber = self.numToChar(self.attr('convertedNumber'));
 
-        self.attr('convertedNumber', convertNumber);
+        self.attr('setConvertedNumber', convertNumber);
     },
     inWords: function(num) {
 			var a = ['', 'one ', 'two ', 'three ', 'four ', 'five ', 'six ', 'seven ', 'eight ', 'nine ', 'ten ', 'eleven ', 'twelve ', 'thirteen ', 'fourteen ', 'fifteen ', 'sixteen ', 'seventeen ', 'eighteen ', 'nineteen ']; //jscs:disable maximumLineLength
@@ -39,8 +39,9 @@ export default can.Map.extend({
 
 
     numToChar: function(viewValue) {
+      var self = this;
         var converted = viewValue.replace(/\d+/g, function(n) {
-            return inWords(n);
+            return self.inWords(n);
         });
         return converted;
     }

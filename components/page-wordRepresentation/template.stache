@@ -1,3 +1,25 @@
-<div class="">
-  Word Representation module loaded
+<div class="page-header">
+  <h1>Task 2
+    <p>
+      <small>
+        Write a function that given a string replaces all numbers into their word representation (1 - one, 2 - two). <br>
+        Use helpr functions if needed. Create visual input and output for that function on a webpage.
+      </small>
+    </p>
+  </h1>
 </div>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="inputNumber" class="col-sm-2 control-label">Enter the Number:</label>
+        <div class="col-sm-10">
+            <input type="text" name="name" can-value="convertedNumber" />
+            <input type="button" name="Convert" value='Convert' can-click="doLetterConverstion">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Word Representation:</label>
+        <div class="col-sm-10">
+            <p class="form-control-static"><b>{{setConvertedNumber}}</b></p>
+        </div>
+    </div>
+</form>
