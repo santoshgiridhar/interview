@@ -15,6 +15,10 @@ can.Component.extend({
     events: {
         'inserted': function() {
             console.log('loaded task modules');
+        },
+        '.columnNumber blur':function(el){
+          console.log();
+          this.viewModel.getExcelColumnCode(el[0].value);
         }
 
     }

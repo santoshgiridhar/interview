@@ -20,9 +20,9 @@ export default can.Map.extend({
         }
     },
 
-    getExcelColumnCode: function() {
+    getExcelColumnCode: function(val) {
         var self = this,
-            convertedLetter = self.numToChar(self.attr('columnNumber'));
+            convertedLetter = val;//self.numToChar(self.attr('columnNumber'));
 
         self.attr('setExcelColumnCode', convertedLetter);
     },
